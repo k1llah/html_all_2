@@ -1,0 +1,105 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.conatiner {
+    max-width: 1440px;
+}
+
+.left_nav {
+    width: 100px;
+    background-color: gray;
+    height: 2000px;
+    transition: width 1s;
+    position: absolute;
+}
+
+.left_nav:hover {
+    width: 300px;
+    transition: width 1s;
+    overflow: visible;
+}
+
+.mini_icons {
+    width: 20px;
+    height: 20px;
+}
+
+.icon1 {}
+
+.icon2 {}
+
+.icon3 {}
+
+.icon4 {}
+
+.icon5 {}
+
+.g {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-left: 10px;
+
+    width: 200px;
+}
+
+.nav_elements {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    position: fixed;
+    align-items: flex-start;
+    width: 80px;
+    overflow: hidden;
+}
+
+.nav_elements:hover {
+    overflow: visible;
+    width: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h4 {
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.left_nav {
+    text-align: center;
+    color: white;
+}
+
+.menu_h {}
+
+.same_lorem {
+    width: 900px;
+}
+
+.container_fl {
+    display: flex;
+}
+
+.right_content {
+    margin-left: 200px;
+}
+
+h2 {
+    font-size: 42px;
+    line-height: 55px;
+    color: black;
+    font-weight: 700;
+}
+
+.same_lorem {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+
+
+}
