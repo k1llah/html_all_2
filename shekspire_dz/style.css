@@ -1,8 +1,11 @@
 .body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.nav_bar{
+.sec1{
     background-color: darkred;
+    margin: auto;
+}
+.nav_bar{ 
     height: 100px;
     display: flex;
 }
@@ -32,9 +35,8 @@ a{
     align-items: center;
 }
 .container{
-    width: 1200px;
-    margin-left: 100px;
-    margin-top: 50px;
+    width: 1440px;
+    margin: 50, auto, 0;
 }
 b{
     font-size: 35px;

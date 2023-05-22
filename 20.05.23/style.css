@@ -1,0 +1,84 @@
+body{
+    background-color: darkslateblue;
+}
+.container{
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+.switcher{
+    width: 300px;
+    height: 100px;
+    border: 5px orangered solid;
+}
+.point{
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+    animation: back  linear;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes back{
+    1%{
+        margin-left: 0px;
+    }
+    50%{
+        margin-left: 200px;
+    }
+    100%{
+        margin-left: 0px;
+    }
+}
+.heart{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img:hover{
+    transform: scale(1.5);
+    filter: grayscale(0);
+    transition: 0.5s;
+}
+img{
+    filter: grayscale(10);
+    width: 350px;
+    height: 350px;
+    transition: 0.5s;
+}
+h3{
+    font-size: 30px;
+    color: black;
+    text-transform: uppercase;
+}
+h2{
+    font-size: 35px;
+    color: salmon;
+    text-transform: uppercase;
+}
+
+.loading{
+    
+}
+.lol_load{
+    width: 100px;
+    height: 100px;
+    animation: load linear normal infinite 1.5s;
+}
+@keyframes load{
+    0%{
+        transform: rotate(0deg);
+    }
+    /* 50%{
+        transform: rotate(180deg);
+    } */
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
