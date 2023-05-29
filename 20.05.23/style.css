@@ -139,6 +139,7 @@ h2{
 .squares{
     margin-top: 400px;
     display: flex;
+    align-items: center;
 
 
 }
@@ -150,6 +151,11 @@ h2{
     transition: transform  1.5s;
     transform-origin: left center;
     
+}
+.hey{
+    position: absolute;
+    z-index: -1;
+    transform: translate(0, 100px);
 }
 .right_sq{
     width: 500px;
