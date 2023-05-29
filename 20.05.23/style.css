@@ -8,6 +8,7 @@ body{
     align-items: center;
     margin: 0 auto;
     
+    
 }
 .switcher{
     width: 300px;
@@ -59,6 +60,7 @@ h2{
     font-size: 35px;
     color: salmon;
     text-transform: uppercase;
+    margin-top: 70px;
 }
 
 .loading{
@@ -78,6 +80,60 @@ h2{
     } */
     100%{
         transform: rotate(360deg);
+    }
+}
+.main{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 115%;
+    left: 50%;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 3px lightblue solid;
+}
+.main div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.dot{
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    transform: translate(-50%, -50%);
+}
+.hh{
+    width: 80px;
+    height: 6px;
+    background-color: black;
+    transform: translate( 0, -50%) rotate(-180deg);
+    transform-origin: 0 50%;
+    animation: clock linear normal 423200s infinite;
+}
+.mm{
+    width: 100px;
+    height: 5px;
+    background-color: grey;
+    transform: translate(0, -50%) rotate(-180deg );
+    transform-origin: 0 50%;
+    animation: clock normal infinite linear 3600s;
+}
+.ss{
+    width: 120px;
+    height: 4px;
+    background-color: red;
+    transform: translate( 0%, -50%) rotate(-180deg);
+    animation: clock infinite 60s linear;
+    transform-origin: 0 50%;
+}
+@keyframes clock {
+    0%{
+        transform: translate(0,-50%) rotate(180deg);
+    }
+    100%{
+        transform: translate(0,-50%) rotate(540deg);
     }
 }
 
