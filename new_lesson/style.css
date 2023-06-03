@@ -13,23 +13,17 @@ h2{
     text-transform: uppercase;
 }
 .container{
-    width: 1440px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding-left: 10px;
-    padding-right: 20px;
 }
 .header{
-    width: 100vw;
-    height: 120px;
     background-color: palevioletred;
-    display: flex;
-    padding-left: 30px;
+    padding: 20px;
 
 }
 .menu{
-    height: 100px;
     background-color: #ee82ee;
-    padding-left: 30px;
+    padding: 20px;
     display: flex;
     margin-top: 20px;
 }
@@ -46,10 +40,10 @@ h2{
     width: 30%;
 }
 .aside1{
-    height: 80px;
+    height: 130px;
     background-color: palevioletred;
     width: 100%;
-    
+    padding: 7px;
 }
 .aside2{
     height: 125px;
@@ -85,6 +79,7 @@ footer{
     width: 100vw;
     background-color: darkred;
     height: 60px;
+    padding: 30px;
 
 }
 .main_h2{
