@@ -1,13 +1,16 @@
 body{
+    background-color: lightpink;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 h1{
     font-size: 25px;
     color: white;
+    text-transform: uppercase;
 }
 h2{
     font-size: 20px;
     color: white;
+    text-transform: uppercase;
 }
 .container{
     width: 1440px;
@@ -20,18 +23,21 @@ h2{
     height: 120px;
     background-color: palevioletred;
     display: flex;
+    padding-left: 30px;
 
 }
 .menu{
     height: 100px;
-    background-color: pink;
+    background-color: #ee82ee;
+    padding-left: 30px;
+    display: flex;
+    margin-top: 20px;
 }
 .sides{
     display: flex;
     width: 100vw;
     gap: 25px;
-    justify-content: space-around;
-    margin-top: 25px;
+    margin-top: 40px;
 }
 .left{
     display: flex;
@@ -43,6 +49,7 @@ h2{
     height: 80px;
     background-color: palevioletred;
     width: 100%;
+    
 }
 .aside2{
     height: 125px;
@@ -59,8 +66,10 @@ h2{
     background-color: palevioletred;
 }
 .s{
-    width: 80%;
+    width: 76%;
     background-color: pink;
+    height: 110px;
+    padding-left: 30px;
 }
 .aside3{
     width: 10%;
