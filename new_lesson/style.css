@@ -1,56 +1,67 @@
-body{
+body {
     background-color: lightpink;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-h1{
+
+h1 {
     font-size: 25px;
     color: white;
     text-transform: uppercase;
 }
-h2{
+
+h2 {
     font-size: 20px;
     color: white;
     text-transform: uppercase;
 }
-.container{
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
 }
-.header{
+
+.header {
     background-color: palevioletred;
     padding: 20px;
 
 }
-.menu{
+
+.menu {
     background-color: #ee82ee;
     padding: 20px;
     display: flex;
     margin-top: 20px;
 }
-.sides{
+
+.sides {
     display: flex;
     width: 100vw;
     gap: 25px;
     margin-top: 40px;
 }
-.left{
+
+.left {
     display: flex;
     flex-direction: column;
     gap: 30px;
     width: 30%;
 }
-.aside1{
+
+.aside1 {
     height: 130px;
     background-color: palevioletred;
     width: 100%;
     padding: 7px;
 }
-.aside2{
+
+.aside2 {
     height: 125px;
     background-color: palevioletred;
     width: 100%;
+    padding: 7px;
 }
-.main_content{
+
+.main_content {
     width: 50%;
     height: 400px;
     display: flex;
@@ -59,13 +70,15 @@ h2{
     gap: 20px;
     background-color: palevioletred;
 }
-.s{
+
+.s {
     width: 76%;
     background-color: pink;
     height: 110px;
     padding-left: 30px;
 }
-.aside3{
+
+.aside3 {
     width: 10%;
     height: 300px;
     background-color: palevioletred;
@@ -75,14 +88,15 @@ h2{
     text-orientation: upright;
     writing-mode: vertical-lr;
 }
-footer{
-    width: 100vw;
-    background-color: darkred;
-    height: 60px;
-    padding: 30px;
 
+footer {
+    background-color: darkorchid;
+    height: 45px;
+    padding: 25px;
+    margin-top: 30px;
 }
-.main_h2{
+
+.main_h2 {
     text-align: start;
     width: 80%;
     margin-top: 30px;
