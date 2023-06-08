@@ -17,6 +17,7 @@ header{
     display: flex;
     gap: 25px;
     align-items: center;
+    margin-left: 30px;
 }
 .mail_png{
     max-width: 60px;
@@ -30,6 +31,7 @@ header{
     display: flex;
     gap: 20px;
     align-items: center;
+    margin-right: 30px;
 }
 .user{
     max-width: 45px;
@@ -48,11 +50,12 @@ header{
 .all{
     display: flex;
     margin-top: 25px;
-    padding-left: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .left_navigation{
     height: 100wh;
-    width: 320px;
+    width: 250px;
     margin-left: 40px;
     display: flex;
     flex-direction: column;
@@ -63,7 +66,7 @@ header{
     align-items: center;
     gap: 20px;
     padding: 25px;
-    max-width: 220px;
+    max-width: 160px;
     transition-duration: 0.5s;
 }
 .links_navigation:hover{
@@ -85,35 +88,158 @@ header{
     gap: 35px;
     flex-wrap: wrap;
 }
+.img_and_text{
+    display: flex;
+    width: 70%;
+}
 .mail_item{
     display: flex;
     justify-content: space-between;
     gap: 110px;
     border-bottom: 1px solid gray;
+    align-items: center;
 }
 .star_name{
     display: flex;
     align-items: center;
     gap: 20px;
+    width: 220px;
 }
 img{
-    max-width: 32px;
-    max-height: 32px;
+    max-width: 18px;
+    max-height: 18px;
 }
 .message_mail{
     text-overflow: ellipsis;
-    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    flex-direction: row;
+}
+span{
+    text-overflow: ellipsis;
 }
 .message_mail{
     display: flex;
     flex-wrap: wrap;
+    width: 60%;
 }
 .paper_clip_date{
     display: flex;
     align-items: center;
     gap: 15px;
+    width: 100px;
+    padding-right: 10px;
 }
 .paper_clip{
     max-width: 32px;
     max-height: 32px;
+}
+.c{
+    justify-content: center;
+}
+span{
+    font-size: 18px;
+    color: gray;
+}
+
+    /* MEDIA */
+
+@media (min-width: 550px) and (max-width: 870px) {
+    .img_and_text{
+        flex-direction: column;
+        max-width: 65%;
+        align-items: center;
+    }
+    .mail_item{
+        align-items: unset;
+    }
+    .mail_item{
+        justify-content: unset;
+        gap: 0px;
+    }
+    .all{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .left_navigation{
+        margin-left: 15px;
+        margin-right: 20px;
+    }
+    .links_navigation{
+        padding: 18px;
+    }
+    .paper_clip_date{
+        align-items: unset;
+        gap: 15px;
+    }
+    .paper_clip{
+        width: 16px;
+        height: 16px;
+        margin-top: 16px;
+    }
+    header{
+        padding: 15px;
+
+    }
+    .mail_png{
+        max-width: 35px;
+        max-height: 35px;
+    }
+    .my_ma{
+        font-size: 19px;
+    }
+    .user_p{
+        font-size: 16px;
+    }
+    
+}
+
+
+@media  (min-width: 280px) and (max-width: 550px) {
+    .img_and_text{
+        flex-direction: column;
+        max-width: 65%;
+        align-items: center;
+    }
+    .mail_item{
+        align-items: unset;
+    }
+    .mail_item{
+        justify-content: unset;
+        gap: 0px;
+    }
+    .all{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .left_navigation{
+        margin-left: 15px;
+        margin-right: 20px;
+    }
+    .links_navigation{
+        padding: 18px;
+    }
+    .paper_clip_date{
+        align-items: unset;
+        gap: 15px;
+    }
+    .paper_clip{
+        width: 16px;
+        height: 16px;
+        margin-top: 16px;
+    }
+    header{
+        padding: 15px;
+        width: 90vmax;
+    }
+    .mail_png{
+        max-width: 35px;
+        max-height: 35px;
+    }
+    .my_ma{
+        font-size: 19px;
+    }
+    .user_p{
+        font-size: 16px;
+    }
 }
