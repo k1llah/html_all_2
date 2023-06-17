@@ -65,7 +65,7 @@
      .aside_2{
         display: flex;
         flex-direction: column;
-        width: 150px;
+        max-width: 150px;
      }
      aside{
         max-width: 150px;
@@ -75,19 +75,13 @@
     aside{
         display: none;
     }
-    .aside_2{
-
-    }
     .a{
         flex-direction: column;
     }
     .aside_2{
-        width: 100%;
+        max-width: 100%;
         margin: 10px 0px;
-        box-sizing: border-box;
-        flex-direction: unset;
+        box-sizing: border-box; 
     }
-    .s{
-     flex-direction: row;   
-    }
+    
   }
