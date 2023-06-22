@@ -146,7 +146,7 @@ h1 {
 
 .z {
     top: 25%;
-    rotate: -90deg;
+    rotate: (-90deg);
     right: -3%;
 }
 
