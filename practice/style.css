@@ -493,7 +493,7 @@ input:checked+.slider:before {
 .float{
     float: right;
     position: relative;
-    right: 20%;
+    right: 15%;
     display: flex;
     flex-direction: column;
     top: -700px;
@@ -510,16 +510,70 @@ input:checked+.slider:before {
     box-sizing: border-box;
 }
 
-.organizations_sec{
+.block_flex{
     display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    position: absolute;
+    max-width: 100%;
     gap: 100px;
-    width: 100%;
 }
-.right_3{
+.left_side{
+    width: 600px;
+}
+.right_side{
     display: flex;
     flex-direction: column;
 }
-.flex{
+.imgs_block{
     display: flex;
-    gap: 40px;
+    gap: 100px;
+}
+.leg{
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+.large_text{
+    background-color: #F7FAFE;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    height: 450px;
+    margin-top: 100px;
+}
+.big{
+    font-size: 68px;
+    font-weight: 800;
+}
+.whats{
+    width: 200px;
+    height: 50px;
+    background-color: #B00000;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: 1.5px solid black ;
+    outline: none;
+    font-size: 14px;
+}
+.elements{
+    position: relative;
+    top: 5%;
+    right: -50%;
+}
+.u{
+    top: -50%;
+    left: 50%;
+
+}
+.o{
+    top: 0%;
+    right: 50%;
 }
