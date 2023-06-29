@@ -1,0 +1,89 @@
+body {
+    margin: 0 auto;
+}
+
+.conatiner {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.input_card {
+    background-color: #9fcdcd;
+    border-radius: 10px;
+    max-width: 600px;
+    height: 350px;
+    position: relative;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+    box-sizing: border-box;
+
+}
+
+.absolute_stripe {
+    background-color: #db6423;
+    height: 40px;
+    position: absolute;
+    width: 500px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    right: 11%;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+img {
+    position: absolute;
+    top: 31%;
+    right: 0%;
+    max-width: 200px;
+}
+
+.form_input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+.top_date {
+    display: flex;
+}
+
+.bottom_date {
+    display: flex;
+    align-items: flex-end;
+    gap: 24px;
+
+}
+
+#ccn {
+    max-width: 100px;
+    height: 35px;
+
+    background-color: #a9d2d2;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #62898b;
+}
+
+#ccd {
+    width: 350px;
+    height: 30px;
+    background-color: #a9d2d2;
+
+}
+
+.input_name {
+    color: #89a0a3;
+    font-weight: 600;
+}

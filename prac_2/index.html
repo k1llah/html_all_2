@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="input_card">
+                <div class="absolute_stripe">
+                    <h3>
+                        credit card details
+                    </h3>
+                </div>
+                <div class="form_input">
+                    <div class="top_date">
+                    <form action="#">
+                        <p class="input_name">
+                            Card Number
+                        </p>
+                        <input id="ccd" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number"
+                            maxlength="19" placeholder="xxxx xxxx xxxx xxxx">
+                        <p class="input_name">
+                            Name On Card
+                        </p>
+                        <input id="ccd" type="name" inputmode="text" pattern="[0-9\s]{2,15}" autocomplete="on"
+                        maxlength="15" placeholder="Lebron James">
+                    </div>
+                    <div class="bottom_date">
+                      <div class="month">
+                        <p class="input_name">
+                            Expiry Date
+                        </p>
+                        <input id="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{2,5}" autocomplete="on"
+                        maxlength="5" placeholder="02">
+                    </div>
+                        
+                        <div class="year">
+                        <input id="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{2,4}" autocomplete="on"
+                        maxlength="4" placeholder="2017">
+                    </div>
+                    <div class="ccv">
+                            <p class="input_name">
+                                cvv/cvn
+                            </p>
+                            <input id="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{3,3}" autocomplete="cc-number"
+                            maxlength="3" placeholder="***">
+                        </div>
+</form>
+
+                    </div>
+                </div> 
+                <img src="Снимок экрана 2023-06-26 в 21.13.25.png" alt="picture">
+        </div>
+    </section>
+</body>
+
+</html>
