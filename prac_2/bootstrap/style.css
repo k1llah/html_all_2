@@ -1,0 +1,22 @@
+body{
+    background: rgb(9,24,103);
+    background: radial-gradient(circle, rgba(9,24,103,1) 0%, rgba(93,6,23,1) 100%);;
+}
+.navbar{
+    background-color: darkgray;
+}
+.img-fluid{
+    width: 100vw;
+    max-height: 600px;
+}
+.abs{
+    position: absolute;
+    color: black;
+    top: 40%;
+    left: 30%;
+    font-size: 55px;
+}
+.card{
+    background-color: grey;
+    color: white;
+}
