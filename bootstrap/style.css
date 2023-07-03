@@ -17,6 +17,8 @@ body{
     font-size: 55px;
 }
 .card{
-    background-color: grey;
+    background-color: transparent;
     color: white;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }
