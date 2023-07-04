@@ -1,39 +1,467 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="ReformaGrotesk/">
+    <link rel="stylesheet" href="dist/scss.css">
+    <link rel="stylesheet" href="ReformaGrotesk/stylesheet.css">
     <title>Document</title>
 </head>
-<body>
 
-    <header>
-        <div class="nav">
-            <div class="links">
-                <a href="#" class="link_nav">Главная</a>
-                <a href="#" class="link_nav">Оклейка автомобилей</a>
-                <a href="#" class="link_nav">Детейлинг автомобилей</a>
-                <a href="#" class="link_nav">Галерея работ</a>
+<body>
+    <section>
+        <img src="rectangle-64.svg" alt="" class="background_image">
+        <div class="container p">
+            <header>
+                <div class="top-nav">
+                    <div class="links">
+                        <a href="#" class="link_nav">Главная</a>
+                        <a href="#" class="link_nav">Оклейка автомобилей</a>
+                        <a href="#" class="link_nav">Детейлинг автомобилей</a>
+                        <a href="#" class="link_nav">Галерея работ</a>
+                    </div>
+                    <div class="burger">
+                        <div class="content_nav_burger">
+                            <input id="menu-toggle" type="checkbox" />
+                            <label class='menu-button-container' for="menu-toggle">
+                                <div class='menu-button'></div>
+                            </label>
+                            <ul class="menu">
+                                <li>Главная</li>
+                                <li>Оклейка автомобилей</li>
+                                <li>Детейлинг автомобилей</li>
+                                <li>Галерея работ</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="center_text">
+                <h1>CAR MUSC</h1>
+                <div class="rectangles">
+                    <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                    <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                    <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                    <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                </div>
+                <p class="lorem">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae orci urna amet penatibus.
+                </p>
+                <button class="our_services">
+                    Наши услуги
+                </button>
             </div>
-            <div class="burger">
-                <div class="content_nav_burger">
-                    <a href="" class="burger_a">Главная</a>
-                    <a href="" class="burger_a">Оклейка автомобилей</a>
-                    <a href="" class="burger_a">Детейлинг автомобилей</a>
-                    <a href="" class="burger_a">Галерея работ</a>
+            <div class="info_top">
+                <div class="first_block">
+                    <p class="block">
+                        адрес:
+                    </p>
+                    <p class="block_red">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    </p>
+                </div>
+
+                <div class="first_block">
+                    <p class="block">
+                        телефон:
+                    </p>
+                    <p class="block_red">
+                        8 (812) 123-45-67
+                    </p>
+                    <p class="block_red">
+                        8-911-123-45-67
+                    </p>
+                </div>
+
+                <div class="first_block">
+                    <p class="block">
+                        Режим работы:
+                    </p>
+                    <p class="block_red">
+                        пн-пт : 10:00 - 20:00
+                    </p>
+
+                    <p class="block_red">
+                        сб-вск : 12:00 - 20:00
+                    </p>
                 </div>
             </div>
         </div>
-    </header>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="left_text">
+                <h2>
+                    наши достижения от кубка россии до чемпионатов мира
+                </h2>
+                <div class="rectangles_2">
+                    <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                    <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                    <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                    <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                </div>
+                <p class="left_p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Habitant tincidunt aliquam tincidunt
+                    pretium sodales. Tristique odio pellentesque et tincidunt posuere arcu purus lobortis risus. Urna,
+                    ut amet odio orci magnis praesent ultrices. Praesent malesuada lacus tellus tristique sit at. Sed
+                    viverra nulla nam arcu, non iaculis pretium, volutpat.
+                </p>
+            </div>
+            <div class="right_side">
+                <div class="flex_col_1">
+                    <div class="item">
+                        <p class="numbs">
+                            #1
+                        </p>
+                        <p class="_lorem_ipsum">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui
+                        </p>
+                    </div>
+
+                    <div class="item">
+                        <p class="numbs">
+                            #6
+                        </p>
+                        <p class="_lorem_ipsum">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui
+                        </p>
+                    </div>
+
+                    <div class="item">
+                        <p class="numbs">
+                            #2
+                        </p>
+                        <p class="_lorem_ipsum">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui
+                        </p>
+                    </div>
+
+                    <div class="item">
+                        <p class="numbs">
+                            #1
+                        </p>
+                        <p class="_lorem_ipsum">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex_col_2">
+                    <div class="item">
+                        <p class="numbs">
+                            #4
+                        </p>
+                        <p class="_lorem_ipsum">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui
+                        </p>
+                    </div>
+
+                    <div class="item">
+                        <p class="numbs">
+                            #3
+                        </p>
+                        <p class="_lorem_ipsum">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui
+                        </p>
+                    </div>
+
+                    <div class="item">
+                        <p class="numbs">
+                            #1
+                        </p>
+                        <p class="_lorem_ipsum">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui
+                        </p>
+                    </div>
+
+                    <div class="item">
+                        <img src="group-19.svg" alt="cup" class="numbs">
+                        <p class="_lorem_ipsum">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque dui
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="slider">
+                <div class="slider_item">
+                    <img src="rectangle-45.svg" alt="car">
+                    <div class="info_slider">
+                        <p class="p_slider">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit
+                            ante.
+                        </p>
+                    </div>
+                </div>
+                <div class="slider_item">
+                    <img src="rectangle-47.svg" alt="car">
+                    <div class="info_slider">
+                        <p class="p_slider">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit
+                        </p>
+                    </div>
+                </div>
+                <div class="slider_item">
+                    <img src="rectangle-49.svg" alt="car">
+                    <div class="info_slider">
+                        <p class="p_slider">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit
+                            ante
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="lines">
+                <div class="left_side">
+                    <div class="item_services">
+                        <div class="img_text">
+                            <img src="group-53.svg" alt="">
+                            <p class="service_p">
+                                материалы от лучших компаний
+                            </p>
+                        </div>
+                        <p class="_small">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et donec elementum egestas vitae
+                            ullamcorper. Amet volutpat ornare pharetra amet adipiscing orci, lectus aenean ultricies.
+                            Erat viverra eget blandit ornare. Molestie ipsum commodo faucibus rhoncus
+                        </p>
+                        <div class="rectangles_2">
+                            <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                            <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                            <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                            <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                        </div>
+                    </div>
+
+                    <div class="item_services">
+                        <div class="img_text">
+                            <img src="group-52.svg" alt="">
+                            <p class="service_p">
+                                Опытные мастера
+                            </p>
+                        </div>
+                        <p class="_small">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et donec elementum egestas vitae
+                            ullamcorper. Amet volutpat ornare pharetra amet adipiscing orci, lectus aenean ultricies.
+                            Erat viverra eget blandit ornare. Molestie ipsum commodo faucibus rhoncus
+                        </p>
+                        <div class="rectangles_2">
+                            <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                            <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                            <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                            <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                        </div>
+                    </div>
+
+                    <div class="item_services">
+                        <div class="img_text">
+                            <img src="group-54.svg" alt="">
+                            <p class="service_p">
+                                Гарантия на все виды работы
+                            </p>
+                        </div>
+                        <p class="p_small">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum volutpat.
+                        </p>
+                    </div>
+                </div>
+                <div class="right_slider">
+                    <img src="rectangle-52.svg" alt="Car" class="slider_img">
+                    <p class="slider_info">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque auctor nibh feugiat est.
+                        Consectetur lectus.
+                    </p>
+                </div>
+            </div>
+
+            <div class="block_our_services">
+                <h3 class="our_services_h3">
+                    Наши услуги
+                </h3>
+                <div class="rectangles_2">
+                    <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                    <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                    <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                    <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                </div>
+                <div class="two_buttons">
+                    <button class="choose_options">
+                        Оклейка
+                    </button>
+                    <button class="choose_options">
+                        Детейлинг
+                    </button>
+                </div>
+                <div class="cards">
+                    <div class="card_item">
+                        <img src="" alt="" class="card_img">
+                        <h4 class="title_card">
+                            Защитные пленки
+                        </h4>
+                        <p class="info_card">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur ultrices pellentesque
+                            vulputate sit. Ut feugiat.
+                        </p>
+                        <button class="card_button">
+                            Подробнее
+                        </button>
+                    </div>
+
+                    <div class="card_item">
+                        <img src="" alt="" class="card_img">
+                        <h4 class="title_card">
+                            Цветные пленки
+                        </h4>
+                        <p class="info_card">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur ultrices pellentesque
+                            vulputate sit. Ut feugiat.
+                        </p>
+                        <button class="card_button">
+                            Подробнее
+                        </button>
+                    </div>
+
+                    <div class="card_item">
+                        <img src="" alt="" class="card_img">
+                        <h4 class="title_card">
+                            Дизайн
+                        </h4>
+                        <p class="info_card">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur ultrices pellentesque
+                            vulputate sit. Ut feugiat.
+                        </p>
+                        <button class="card_button">
+                            Подробнее
+                        </button>
+                    </div>
+
+                    <div class="card_item">
+                        <img src="" alt="" class="card_img">
+                        <h4 class="title_card">
+                            Оклейка салона
+                        </h4>
+                        <p class="info_card">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur ultrices pellentesque
+                            vulputate sit. Ut feugiat.
+                        </p>
+                        <button class="card_button">
+                            Подробнее
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <section>
         <div class="container">
-            
+            <div class="lines">
+                <div class="left_side">
+                    <div class="item_services">
+                        <div class="img_text">
+                            <img src="group-55.svg" alt="">
+                            <p class="service_p">
+                                100% полироль axem
+                            </p>
+                        </div>
+                        <p class="_small">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et donec elementum egestas vitae
+                            ullamcorper. Amet volutpat ornare pharetra amet adipiscing orci, lectus aenean ultricies.
+                            Erat viverra eget blandit ornare. Molestie ipsum commodo faucibus rhoncus
+                        </p>
+                        <div class="rectangles_2">
+                            <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                            <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                            <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                            <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                        </div>
+                    </div>
+
+                    <div class="item_services">
+                        <div class="img_text">
+                            <img src="group-53.svg" alt="">
+                            <p class="service_p">
+                                выполняем работу четко по тз  
+                            </p>
+                        </div>
+                        <p class="_small">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et donec elementum egestas vitae
+                            ullamcorper. Amet volutpat ornare pharetra amet adipiscing orci, lectus aenean ultricies.
+                            Erat viverra eget blandit ornare. Molestie ipsum commodo faucibus rhoncus
+                        </p>
+                        <div class="rectangles_2">
+                            <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                            <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                            <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                            <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                        </div>
+                    </div>
+
+                    <div class="item_services">
+                        <div class="img_text">
+                            <img src="group-52.svg" alt="">
+                            <p class="service_p">
+                                у нас лучшие мастера
+                            </p>
+                        </div>
+                        <p class="p_small">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum volutpat.
+                        </p>
+                    </div>
+                </div>
+                <div class="right_slider">
+                    <img src="rectangle-52.svg" alt="Car" class="slider_img">
+                    <p class="slider_info">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque auctor nibh feugiat est.
+                        Consectetur lectus.
+                    </p>
+                </div>
+            </div>
+
+            <div class="our_works">
+                <h3 class="works">
+                    Наши работы   
+                </h3>
+                <div class="rectangles_2">
+                    <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                    <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                    <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                    <img src="Rectangle 29.svg" alt="rectangle" class="recs">
+                </div>
+                <div class="gallery_of_works">
+                    <div class="gallery"> 
+                            <img src="rectangle-56.svg" alt="Car" class="gallery_img">
+                            <img src="rectangle-57.svg" alt="Car" class="gallery_img">
+                            <img src="rectangle-58.svg" alt="Car" class="gallery_img">
+                            <img src="rectangle-59.svg" alt="Car" class="gallery_img">
+                            <img src="rectangle-60.svg" alt="Car" class="gallery_img">
+                            <img src="rectangle-61.svg" alt="Car" class="gallery_img">
+                            <img src="rectangle-61.svg" alt="Car" class="gallery_img">
+                            <img src="rectangle-60.svg" alt="Car" class="gallery_img">
+                            <img src="rectangle-59.svg" alt="Car" class="gallery_img">
+                            <img src="rectangle-58.svg" alt="Car" class="gallery_img">
+                            <img src="rectangle-57.svg" alt="Car" class="gallery_img">
+                            <img src="rectangle-56.svg" alt="Car" class="gallery_img">
+                            <img src="rectangle-56.svg" alt="Car" class="gallery_img">
+                            <img src="rectangle-57.svg" alt="Car" class="gallery_img">
+                            <img src="rectangle-58.svg" alt="Car" class="gallery_img">
+                            <img src="rectangle-59.svg" alt="Car" class="gallery_img">
+                            <img src="rectangle-60.svg" alt="Car" class="gallery_img">
+                            <img src="rectangle-61.svg" alt="Car" class="gallery_img">
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 </body>
+
 </html>
