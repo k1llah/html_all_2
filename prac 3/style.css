@@ -270,8 +270,8 @@ body{
   }
   .slider{
     display: flex;
+    margin: 0 auto;
     margin-top: 100px;
-    justify-content: center;
     gap: 35px;
   }
   .slider_item{
