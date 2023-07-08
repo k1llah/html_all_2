@@ -4,6 +4,10 @@ body{
     font-family: 'ReformaGroteskMediumC';
     background-color: #141414;
 }
+.p{
+    background-image: url(rectangle-64.svg);
+    background-size: cover;
+}
 
 .top-nav {
     display: flex;
@@ -669,6 +673,9 @@ body{
     }
     .choose_options{
         width: 135px;
+    }
+    .block_red{
+        font-size: 18px;
     }
 
 }
