@@ -655,14 +655,20 @@ body{
         display: none;
     }
     .gallery_img{
-        max-width: 300px;
+        max-width: 290px;
         justify-content: center;
     }
     .slider_img{
         max-width: 280px;
     }
     .two_buttons{
-        gap: 15px;
+        gap: 10px;
+    }
+    .first_block{
+        width: unset;
+    }
+    .choose_options{
+        width: 135px;
     }
 
 }
