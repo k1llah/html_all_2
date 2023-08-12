@@ -4,10 +4,11 @@ article {
 }
 
 img {
-    width: 400px;
-    height: 350px;
+    
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    max-width: 500px;
+    max-height: 500px;
 }
 
 p {
@@ -42,10 +43,14 @@ p {
 
 .card_1 {
     border-radius: 15px;
+    overflow: hidden;
+    
 }
 
 .card_2 {
     border-radius: 15px;
+    overflow: hidden;
+   
 }
 
 .c {
@@ -71,6 +76,7 @@ p {
         position: static;
         flex-wrap: wrap;
         margin-top: 35px;
+        justify-content: center;
     }
     .container{
         margin-left: 0px;
